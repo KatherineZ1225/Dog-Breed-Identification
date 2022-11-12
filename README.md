@@ -1,14 +1,6 @@
-# Data Science Project Template
-
-Template adapted from [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
-
-
-
-## Convention
-
-Following this directory structure
+## Project Directory Structure
 ```
-|--project_name                           <- Project root level that is checked into github
+|--DOg Breed Identification               <- Project root level that is checked into github
   |--project                              <- Project folder
     |--README.md                          <- Top-level README for developers
     |--volume
@@ -28,10 +20,13 @@ Following this directory structure
     |--src
     |   |
     |   |--features                       <- Scripts for turning raw and external data into model-ready data
-    |   |   |--build_features.r
+    |   |   |--Make_fake_data.r
+    |   |   |--make_wine_dt.r
     |   |
     |   |--models                         <- Scripts for training and saving models
-    |   |   |--train_model.r
+    |   |   |--PCA.r
+    |   |   |--PCA_tSNE_GMM.r
+    |   |   |--model copy-copy.r
     |   |
     |
     |
