@@ -8,8 +8,8 @@ Template adapted from [Cookiecutter Data Science](https://drivendata.github.io/c
 
 Following this directory structure
 ```
-|--Classify Reddit Posts                         <- Project root level that is checked into github
-  |--Final Project                              <- Project folder
+|--project_name                           <- Project root level that is checked into github
+  |--project                              <- Project folder
     |--README.md                          <- Top-level README for developers
     |--volume
     |   |--data
@@ -28,11 +28,10 @@ Following this directory structure
     |--src
     |   |
     |   |--features                       <- Scripts for turning raw and external data into model-ready data
-    |   |   |--build_features_redditPost.r
+    |   |   |--build_features.r
     |   |
     |   |--models                         <- Scripts for training and saving models
-    |   |   |--train_model_redditPost.r
-    |   |   |--DNN_embeddings.r
+    |   |   |--train_model.r
     |   |
     |
     |
